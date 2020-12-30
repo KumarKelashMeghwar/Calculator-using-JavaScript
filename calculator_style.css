@@ -1,0 +1,88 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    outline: none;
+}
+
+html{
+    font-size: 10px;
+}
+
+body{
+    font-family: sans-serif;
+    background: linear-gradient(to right, rgb(150, 174, 243) , rgb(142, 223, 142), rgb(236, 216, 104));
+}
+
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.cover{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: pink;
+    padding: 10px;
+    padding-top: 20px;
+}
+
+.screen1{
+    background-color: orange;
+    width: 29.3rem;
+    height: 3rem;
+    border: none;
+    font-size: 2.5rem;
+    color-adjust: 5px;
+    padding-left: 5px;
+    color: #fff;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+}
+
+.screen2{
+    width: 29.3rem;
+    height: 6rem;
+    font-size: 3.5rem;
+    background-color: orange;
+    border: none;
+    color-adjust: 10px;
+    padding-left: 10px;
+    color: #fff;
+    overflow-x: scroll;
+    overflow-y: hidden;
+}
+.btn,.btnDel,.btnEqual,.btnC,.Butn{
+    height: 60px;
+    width: 60px;  
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+    font-size: 2rem;
+    
+    font-weight: bold;
+    transition: 1s ease;
+    transition-property:  background-color;
+    margin: 3px;
+    margin-top: 11px;
+}
+
+.btn:hover,.btnDel:hover,.btnEqual:hover,.btnC:hover,.Butn:hover{
+    background-color: orange;
+}
+
+
+.btnEqual{
+    background-color: orange;
+    color: #fff;
+}
+
+.btnEqual:hover{
+    color: black;
+}
